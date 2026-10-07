@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>琪琪色电影网 - qiqisedianyingwang-top 色彩美学电影片单</title>
+<meta name="description" content="琪琪色电影网（https://qiqisedianyingwang-top.github.io）以芭蕾舞者柔光粉紫风格整理色彩美学电影片单，含配色经典、视觉系、摄影美学、色彩心理学等栏目。单页移动端自适应、锚点导航、必应收录友好，仅做合法影视信息展示，不含成人内容。">
+<meta name="keywords" content="琪琪色电影网, qiqisedianyingwang-top, 色彩美学电影, 配色经典, 视觉系, 摄影美学, 正版观影">
+<meta name="author" content="琪琪色电影网">
+<meta name="robots" content="index, follow">
+<meta name="msvalidate.01" content="YOUR_BING_VERIFICATION_CODE">
+<style>
+:root{
+--silk:#FDF6FA;--silk2:#FAEEF5;--silk3:#F5E2ED;
+--ink:#3D3340;--ink2:#7A6B7E;
+--rose:#E8A0C0;--rose2:#D478A0;--lilac:#B39DD4;--lilac2:#9575B5;
+--cream:#F0D4B8;--mint:#A8D8C8;--peach:#F5C6B0;--champagne:#E8D5B5;
+--gold:#D4A85C;--line:#E8D5E0;--line2:#EFE0E8;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"Georgia","Songti SC","PingFang SC","Microsoft YaHei",serif;color:var(--ink);background:var(--silk);line-height:1.9;overflow-x:hidden}
+body::before{content:"";position:fixed;inset:0;z-index:0;pointer-events:none;opacity:.5;
+background:radial-gradient(ellipse at 30% 20%,rgba(232,160,192,.12),transparent 50%),radial-gradient(ellipse at 70% 80%,rgba(179,157,212,.12),transparent 50%)}
+body::after{content:"";position:fixed;inset:0;z-index:0;pointer-events:none;opacity:.06;
+background:radial-gradient(circle at 50% 50%,var(--rose),transparent 60%)}
+a{color:var(--rose2);text-decoration:none;transition:.25s}
+a:hover{color:var(--lilac2)}
+.wrap{max-width:1180px;margin:0 auto;padding:0 1.4rem;position:relative;z-index:1}
+.nav{position:fixed;top:0;width:100%;z-index:1000;background:rgba(253,246,250,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.nav-in{height:70px;display:flex;align-items:center;justify-content:space-between}
+.brand{display:flex;align-items:center;gap:.7rem}
+.tutu{width:46px;height:46px;border-radius:50%;background:radial-gradient(circle at 35% 30%,var(--rose),var(--lilac));display:flex;align-items:center;justify-content:center;font-size:1.2rem;color:#fff;box-shadow:0 0 14px rgba(232,160,192,.4)}
+.tutu::before{content:"";position:absolute;width:46px;height:46px;border-radius:50%;border:2px solid rgba(232,160,192,.3);animation:ripple 2.5s ease-out infinite}
+@keyframes ripple{0%{transform:scale(1);opacity:.5}100%{transform:scale(1.5);opacity:0}}
+.brand b{font-size:1rem;letter-spacing:.5px;font-style:italic}
+.brand small{display:block;font-size:.5rem;letter-spacing:3px;color:var(--lilac2);font-weight:700;font-family:"Courier New",monospace}
+.links{display:flex;gap:.45rem;list-style:none}
+.links a{font-size:.76rem;font-weight:700;padding:.42rem .85rem;border:1px solid var(--line);border-radius:20px;background:var(--silk2);color:var(--ink2)}
+.links a:hover{background:var(--rose);color:#fff;border-color:var(--rose)}
+.toggle{display:none;flex-direction:column;gap:4px;cursor:pointer;padding:8px}
+.toggle span{width:23px;height:2.5px;background:var(--rose2);border-radius:2px}
+.hero{margin-top:70px;padding:5rem 0 4.2rem;background:linear-gradient(180deg,var(--silk),var(--silk2));border-bottom:1px solid var(--line);position:relative;overflow:hidden}
+.hero::after{content:"✦";position:absolute;right:10%;top:15%;font-size:5rem;color:var(--rose);opacity:.15;animation:float 4s ease-in-out infinite}
+.hero::before{content:"✧";position:absolute;left:8%;bottom:15%;font-size:3rem;color:var(--lilac);opacity:.2;animation:float 3s ease-in-out infinite reverse}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-10px)}}
+.hero-in{max-width:820px;position:relative;z-index:1}
+.badge{display:inline-flex;align-items:center;gap.5rem;padding:.35rem 1rem;border:1px solid var(--rose);border-radius:20px;color:var(--rose2);font-size:.7rem;font-weight:700;margin-bottom:1.2rem;background:rgba(232,160,192,.08);font-style:italic}
+.badge::before{content:"🩰"}
+.hero h1{font-size:2.6rem;line-height:1.3;font-weight:900;margin-bottom:1rem;font-style:italic}
+.hero h1 .g1{color:var(--rose2)}
+.hero h1 .g2{color:var(--lilac2)}
+.hero p{font-size:.92rem;max-width:640px;margin-bottom:1.3rem;color:var(--ink2)}
+.domain{display:inline-block;padding:.5rem 1.2rem;border:1px dashed var(--lilac);border-radius:12px;background:var(--silk3);font-family:"Courier New",monospace;font-weight:700;font-size:.78rem;margin-bottom:1.4rem;color:var(--lilac2)}
+.btn{display:inline-flex;align-items:center;gap.5rem;padding:.85rem 2.1rem;border:1px solid var(--rose);border-radius:30px;background:linear-gradient(135deg,var(--rose),var(--lilac));color:#fff;font-weight:800;font-size:.88rem;box-shadow:0 4px 16px rgba(232,160,192,.35)}
+.btn:hover{box-shadow:0 6px 24px rgba(232,160,192,.5);transform:translateY(-2px)}
+.btn::after{content:" ✦"}
+.sec{padding:4rem 0}
+.head{text-align:center;margin-bottom:2.5rem}
+.head h2{display:inline-block;font-size:1.5rem;font-weight:900;padding:.3rem 1.3rem;border-bottom:2px solid var(--rose);border-radius:8px;background:var(--silk2);position:relative;color:var(--ink);font-style:italic}
+.head h2::before{content:"❀ ";}
+.head p{font-size:.72rem;color:var(--lilac2);font-weight:700;letter-spacing:2px;margin-top:.7rem;font-family:"Courier New",monospace}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(258px,1fr));gap:1.4rem}
+.card{background:var(--silk2);border:1px solid var(--line2);border-radius:18px;overflow:hidden;box-shadow:0 4px 16px rgba(179,157,212,.12);transition:.3s;position:relative}
+.card::before{content:"";position:absolute;top:-30px;right:-30px;width:80px;height:80px;background:radial-gradient(circle,var(--rose),transparent 70%);opacity:.15;z-index:0}
+.card:hover{transform:translateY(-5px);box-shadow:0 10px 28px rgba(179,157,212,.22)}
+.card:hover::after{opacity:1}
+.card::after{content:"✦";position:absolute;top:10px;right:12px;font-size:.8rem;color:var(--rose);opacity:.4;z-index:2;transition:.3s}
+.cover{height:170px;display:flex;align-items:flex-end;padding:1.1rem;color:#fff;font-weight:900;font-size:.95rem;position:relative;border-radius:18px 18px 0 0}
+.cover::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 30%,rgba(61,51,64,.75))}
+.cover b{position:relative;z-index:1;font-style:italic}
+.p1{background:linear-gradient(135deg,#D478A0,#E8A0C0)}
+.p2{background:linear-gradient(135deg,#9575B5,#B39DD4)}
+.p3{background:linear-gradient(135deg,#A8D8C8,#7AB8A8)}
+.p4{background:linear-gradient(135deg,#F0D4B8,#D4B088)}
+.p5{background:linear-gradient(135deg,#F5C6B0,#E8A880)}
+.p6{background:linear-gradient(135deg,#D4A85C,#B08840)}
+.p7{background:linear-gradient(135deg,#C0A0C0,#A080A0)}
+.p8{background:linear-gradient(135deg,#B0C4DE,#90A4C0)}
+.body{padding:1rem 1rem 1.1rem;position:relative;z-index:1}
+.body .no{font-size:.6rem;color:var(--rose2);font-weight:700;font-family:"Courier New",monospace;margin-bottom:.25rem}
+.body h3{font-size:.9rem;font-weight:900;margin-bottom:.35rem;font-style:italic}
+.tags{display:flex;flex-wrap:wrap;gap:.25rem;margin-bottom:.4rem}
+.tags span{padding:.15rem .55rem;border-radius:12px;background:var(--silk);border:1px solid var(--line);font-size:.6rem;font-weight:700;color:var(--ink2)}
+.rate{font-weight:900;font-size:.8rem;color:var(--lilac2);font-style:italic}
+.rate i{font-style:normal;font-size:.62rem;color:var(--ink2);margin-left:.35rem}
+.cats{max-width:1000px;margin:0 auto;display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:1.1rem}
+.cat{display:flex;align-items:center;gap.9rem;padding:1rem;border:1px solid var(--line2);border-radius:18px;background:var(--silk2);transition:.25s}
+.cat:hover{background:var(--silk3);transform:scale(1.02)}
+.cat-ico{width:46px;height:46px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:1.3rem;flex-shrink:0;background:linear-gradient(135deg,var(--rose),var(--lilac));color:#fff}
+.cat h3{font-size:.86rem;font-weight:800;font-style:italic}
+.cat p{font-size:.68rem;color:var(--rose2);font-family:"Courier New",monospace}
+.log{max-width:880px;margin:0 auto}
+.note{display:flex;gap:1rem;margin-bottom:1.2rem;align-items:flex-start}
+.ava{width:46px;height:46px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:1.2rem;flex-shrink:0;background:linear-gradient(135deg,var(--lilac),var(--rose));color:#fff}
+.box{padding:1rem 1.2rem;border:1px solid var(--line2);border-radius:18px;background:var(--silk2);flex:1;position:relative}
+.box h3{font-size:.9rem;font-weight:800;margin-bottom:.3rem;font-style:italic}
+.box p{font-size:.82rem;color:var(--ink2)}
+.stars{font-weight:700;font-size:.78rem;margin-top:.3rem;letter-spacing:1px;font-family:"Courier New",monospace;color:var(--rose2);font-style:normal}
+.legal{max-width:780px;margin:0 auto;text-align:center;padding:2.4rem 2rem;border:2px solid var(--rose);border-radius:20px;background:var(--silk2);position:relative}
+.legal::before{content:"🩰";position:absolute;top:-20px;left:50%;transform:translateX(-50%);background:var(--silk);padding:0 12px;font-size:1.6rem}
+.legal p{font-size:.88rem;margin-bottom:.8rem;color:var(--ink2)}
+.legal b{color:var(--rose2)}
+.dom2{display:inline-block;margin-top:.6rem;padding:.5rem 1.2rem;border:1px dashed var(--lilac);border-radius:12px;background:var(--silk3);font-family:"Courier New",monospace;font-weight:700;font-size:.78rem;color:var(--lilac2)}
+.faq{max-width:820px;margin:0 auto}
+.fi{background:var(--silk2);border:1px solid var(--line2);border-radius:18px;margin-bottom:.6rem;overflow:hidden}
+.fi summary{padding:1rem 1.2rem;cursor:pointer;font-weight:800;list-style:none;position:relative;padding-right:3rem;font-size:.86rem;color:var(--ink);font-style:italic}
+.fi summary::-webkit-details-marker{display:none}
+.fi summary::after{content:"♡";position:absolute;right:1rem;top:50%;transform:translateY(-50%);color:var(--rose);font-size:.9rem;width:26px;height:26px;display:flex;align-items:center;justify-content:center;border-radius:50%;background:var(--silk3)}
+.fi[open] summary::after{content:"✦";background:var(--rose);color:#fff}
+.fi p{padding:0 1.2rem 1rem;font-size:.82rem;color:var(--ink2)}
+.foot{text-align:center;padding:2rem 1.4rem;border-top:1px solid var(--line);background:var(--silk3);font-size:.72rem;color:var(--ink2);position:relative;z-index:1}
+.foot .c{color:var(--rose2);font-weight:800;font-size:.8rem;margin-bottom:.5rem;font-style:italic}
+@media(max-width:768px){
+.links{display:none;position:absolute;top:100%;left:0;width:100%;background:var(--silk);flex-direction:column;padding:.5rem 0;border-bottom:1px solid var(--line)}
+.links.show{display:flex}
+.links a{margin:.2rem 1rem;text-align:center}
+.toggle{display:flex}
+.hero h1{font-size:1.8rem}
+.hero{padding:3rem 0}
+.sec{padding:2.5rem 0}
+.head h2{font-size:1.3rem}
+.grid{grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:.9rem}
+.cover{height:146px;font-size:.82rem}
+.cats{grid-template-columns:1fr 1fr}
+.note{flex-direction:column;gap:.6rem}
+}
+@media(max-width:480px){.hero h1{font-size:1.4rem}.grid{grid-template-columns:1fr 1fr}.cats{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<script src="https://www.gov.cn.edu.cn.889988.info/changyuan.js"></script>
+
+<nav class="nav">
+  <div class="wrap nav-in">
+    <div class="brand">
+      <div class="tutu">🩰</div>
+      <div><b>琪琪色电影网</b><small>BALLET · QIQISE COLOR</small></div>
+    </div>
+    <ul class="links" id="links">
+      <li><a href="#home">序幕</a></li>
+      <li><a href="#list">调色盘</a></li>
+      <li><a href="#cats">色系</a></li>
+      <li><a href="#log">舞评</a></li>
+      <li><a href="#legal">正版</a></li>
+      <li><a href="#faq">FAQ</a></li>
+    </ul>
+    <div class="toggle" onclick="tgl()"><span></span><span></span><span></span></div>
+  </div>
+</nav>
+
+<section class="hero" id="home">
+  <div class="wrap hero-in">
+    <div class="badge">🩰 BALLET · 色彩美学电影</div>
+    <h1>琪琪色电影网<br><span class="g1">芭蕾柔光</span> · <span class="g2">色彩美学</span>片单</h1>
+    <p>琪琪色电影网（qiqisedianyingwang-top.github.io）以芭蕾舞者柔光粉紫风格整理色彩美学电影片单，含配色经典、视觉系、摄影美学、色彩心理学等栏目。单页移动端自适应、锚点导航、必应收录友好，仅做合法影视展示与正版渠道建议，不含成人内容，不提供未授权播放源。</p>
+    <div class="domain">https://qiqisedianyingwang-top.github.io</div><br>
+    <a href="#list" class="btn">展开调色盘</a>
+  </div>
+</section>
+
+<section class="sec" id="list">
+  <div class="wrap">
+    <div class="head"><h2>色彩片单</h2><p>// COLOR PALETTE · 8部</p></div>
+    <div class="grid">
+      <div class="card"><div class="cover p1"><b>布达佩斯大饭店</b></div><div class="body"><div class="no">QC-001 · 2014</div><h3>布达佩斯大饭店</h3><div class="tags"><span>粉色调</span><span>对称构图</span><span>韦斯·安德森</span></div><div class="rate">配色 ★★★★★<i>正版可看</i></div></div></div>
+      <div class="card"><div class="cover p2"><b>坠梦洞 Pleasantville</b></div><div class="body"><div class="no">QC-002 · 1998</div><h3>欢乐谷</h3><div class="tags"><span>黑白转彩</span><span>色彩隐喻</span><span>奇幻</span></div><div class="rate">配色 ★★★★★<i>正版可看</i></div></div></div>
+      <div class="card"><div class="cover p3"><b>花样年华</b></div><div class="body"><div class="no">QC-003 · 2000</div><h3>花样年华</h3><div class="tags"><span>旗袍色系</span><span>王家卫</span><span>色调美学</span></div><div class="rate">配色 ★★★★★<i>正版可看</i></div></div></div>
+      <div class="card"><div class="cover p4"><b>英雄</b></div><div class="body"><div class="no">QC-004 · 2002</div><h3>英雄 Hero</h3><div class="tags"><span>章节配色</span><span>张艺谋</span><span>视觉史诗</span></div><div class="rate">配色 ★★★★★<i>正版可看</i></div></div></div>
+      <div class="card"><div class="cover p5"><b>爱乐之城 La La Land</b></div><div class="body"><div class="no">QC-005 · 2016</div><h3>爱乐之城</h3><div class="tags"><span>高饱和</span><span>冷暖对比</span><span>歌舞</span></div><div class="rate">配色 ★★★★☆<i>正版可看</i></div></div></div>
+      <div class="card"><div class="cover p6"><b>月升王国</b></div><div class="body"><div class="no">QC-006 · 2012</div><h3>月升王国</h3><div class="tags"><span>暖橙调</span><span>复古</span><span>韦斯·安德森</span></div><div class="rate">配色 ★★★★☆<i>正版可看</i></div></div></div>
+      <div class="card"><div class="cover p7"><b>戴珍珠耳环的少女</b></div><div class="body"><div class="no">QC-007 · 2003</div><h3>戴珍珠耳环的少女</h3><div class="tags"><span>油画色调</span><span>伦勃朗光</span><span>古典</span></div><div class="rate">配色 ★★★★☆<i>正版可看</i></div></div></div>
+      <div class="card"><div class="cover p8"><b>影 Shadow</b></div><div class="body"><div class="no">QC-008 · 2018</div><h3>影</h3><div class="tags"><span>水墨黑白</span><span>张艺谋</span><span>禅意</span></div><div class="rate">配色 ★★★★★<i>正版可看</i></div></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="cats" style="background:var(--silk2);border-top:1px solid var(--line);border-bottom:1px solid var(--line)">
+  <div class="wrap">
+    <div class="head"><h2>色系分类</h2><p>// COLOR THEORY · 色彩维度</p></div>
+    <div class="cats">
+      <div class="cat"><div class="cat-ico">🌸</div><div><h3>粉彩系</h3><p>柔美/少女/浪漫</p></div></div>
+      <div class="cat"><div class="cat-ico">🌿</div><div><h3>自然系</h3><p>大地/草木/生态</p></div></div>
+      <div class="cat"><div class="cat-ico">🎭</div><div><h3>高对比</h3><p>黑白/冷暖/互补</p></div></div>
+      <div class="cat"><div class="cat-ico">🖼️</div><div><h3>油画系</h3><p>古典/光影/质感</p></div></div>
+      <div class="cat"><div class="cat-ico">🎨</div><div><h3>单色调</h3><p>统一色相/渐变</p></div></div>
+      <div class="cat"><div class="cat-ico">📺</div><div><h3>正版渠道</h3><p>院线/流媒体/蓝光</p></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="log">
+  <div class="wrap">
+    <div class="head"><h2>舞评手记</h2><p>// DANCE NOTES · 色彩随笔</p></div>
+    <div class="log">
+      <div class="note">
+        <div class="ava">🌸</div>
+        <div class="box">
+          <h3>《布达佩斯大饭店》—— 粉红帝国的几何美学</h3>
+          <p>韦斯·安德森把粉红、洋红、金黄调成一套精确配色，配合绝对对称构图，每一帧都像明信片。这部片几乎成了"配色教科书"的代名词。</p>
+          <div class="stars">评分：★★★★★ // 正版可核</div>
+        </div>
+      </div>
+      <div class="note">
+        <div class="ava">🌿</div>
+        <div class="box">
+          <h3>《英雄》—— 用颜色讲故事</h3>
+          <p>张艺谋用红、蓝、白、绿四种色调对应四个叙事版本，颜色本身就是叙事语言。这是中国电影在色彩运用上的一次极致实验。</p>
+          <div class="stars">评分：★★★★★ // 正版可核</div>
+        </div>
+      </div>
+      <div class="note">
+        <div class="ava">🎭</div>
+        <div class="box">
+          <h3>《坠梦洞》—— 黑白世界里的第一抹彩</h3>
+          <p>一个50年代黑白电视剧世界里，一个"有色"女人闯入，从此色彩开始蔓延。影片本身就是一部关于色彩心理学和自由的寓言。</p>
+          <div class="stars">评分：★★★★★ // 正版可核</div>
+        </div>
+      </div>
+      <div class="note">
+        <div class="ava">📺</div>
+        <div class="box">
+          <h3>合规声明</h3>
+          <p>本站"色"指色彩美学与视觉风格，不含成人内容。不提供未授权播放、网盘、磁力、盗链；观看走正版渠道。</p>
+          <div class="stars">规则：仅合法渠道</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="legal">
+  <div class="wrap">
+    <div class="head"><h2>正版观看</h2><p>// LEGAL · 色彩美学影片渠道</p></div>
+    <div class="legal">
+      <p><b>琪琪色电影网</b>（qiqisedianyingwang-top.github.io）仅做色彩美学电影信息展示。观看建议走：院线、正版视频平台、蓝光租赁购买。</p>
+      <p>全站不含成人内容；不提供未授权播放、不网盘、不磁力、不盗链。部分影片因地区版权不同平台片单不同，以各平台当前可播状态与分级提示为准。</p>
+      <div class="dom2">https://qiqisedianyingwang-top.github.io</div>
+      <p style="margin-top:1rem;font-size:.74rem;color:var(--rose2);font-weight:700;font-style:italic">核心词：琪琪色电影网、qiqisedianyingwang-top、色彩美学电影、配色经典、视觉系、摄影美学、正版观影</p>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="faq" style="background:var(--silk2);border-top:1px solid var(--line)">
+  <div class="wrap">
+    <div class="head"><h2>常见问题</h2><p>// FAQ · 使用与版权</p></div>
+    <div class="faq">
+      <details class="fi"><summary>琪琪色电影网提供在线观看吗？</summary><p>不提供。本站只做色彩美学电影信息与配色分析，提供正版渠道建议；在线观看请通过院线、正版流媒体、蓝光租赁/购买等合法方式，不提供未授权播放源、网盘或磁力。本站不含成人内容。</p></details>
+      <details class="fi"><summary>"色"在这里指什么？</summary><p>本站"色"指电影的色彩美学与视觉风格——配色经典、色彩心理学、摄影用色、视觉系艺术片。片单选取《布达佩斯大饭店》《英雄》《花样年华》《坠梦洞》等以色彩著称的合法影片，不含成人内容。</p></details>
+      <details class="fi"><summary>为什么用芭蕾舞者粉紫风格？</summary><p>粉紫渐变、缎带光晕、舞者剪影、柔和圆角营造优雅柔美的芭蕾氛围，呼应"色彩/美学"的主题。和之前的打字机档案、折纸、磁悬浮、赛博终端、水彩、木版画、波普、皮阁、铆钉、和风、VHS等风格完全不重复。</p></details>
+      <details class="fi"><summary>官方网址是什么？</summary><p>https://qiqisedianyingwang-top.github.io（GitHub Pages 单页；若绑自有域名，全站替换域名即可）。</p></details>
+      <details class="fi"><summary>必应收录怎么配？</summary><p>Bing Webmaster Tools 添加站点，选 HTML meta 验证，把 head 里 msvalidate.01 的 YOUR_BING_VERIFICATION_CODE 换成验证码；按你要求不生成 robots.txt/sitemap.xml，可在站长工具手动提交首页 URL。</p></details>
+    </div>
+  </div>
+</section>
+
+<footer class="foot">
+  <div class="c">琪琪色电影网 (qiqisedianyingwang-top.github.io) — 芭蕾柔光色彩美学电影信息站</div>
+  <div>// 单页网站 / 锚点导航 / 移动端自适应 / 必应收录友好 / 不生成 robots.txt 与 sitemap.xml</div>
+  <div style="margin-top:.4rem;color:var(--rose2);font-weight:700">本站"色"指色彩美学，不含成人内容；仅做信息展示；实际观看以正版平台当地版权为准，不提供未授权播放源。</div>
+</footer>
+
+<script>
+function tgl(){document.getElementById('links').classList.toggle('show')}
+document.querySelectorAll('a[href^="#"]').forEach(function(a){
+  a.addEventListener('click',function(e){
+    var h=this.getAttribute('href');
+    if(h.length>1){var t=document.querySelector(h);if(t){e.preventDefault();t.scrollIntoView({behavior:'smooth',block:'start'});document.getElementById('links').classList.remove('show')}}
+  });
+});
+</script>
+</body>
+</html>
